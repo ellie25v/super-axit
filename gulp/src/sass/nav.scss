@@ -1,0 +1,35 @@
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $dark-color;
+  color: white;
+
+}
+
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-menu {
+  min-width: 450px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+    width: 90px;
+    height: 30px;
+}
+
+.main-nav {
+  min-height: 14px;
+  font-weight: 600;
+  font-family: $p-font;
+
+}
