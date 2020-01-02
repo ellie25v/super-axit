@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -9,10 +10,6 @@
 ul,
 ol {
   list-style: none;
-}
-
-html {
-  box-sizing: border-box;
 }
 
 a {
@@ -35,4 +32,4 @@ body {
   font-family: $h-font;
   font-weight: 400;
   text-align: center;
-}
+
