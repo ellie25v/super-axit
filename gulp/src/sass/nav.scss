@@ -22,14 +22,13 @@
   justify-content: space-between;
 }
 
-.logo{
-    width: 90px;
-    height: 30px;
+.logo {
+  width: 90px;
+  height: 30px;
 }
 
-.main-nav {
-  min-height: 14px;
+.main-nav__list-link {
   font-weight: 600;
   font-family: $p-font;
-
+  text-transform: capitalize;
 }
