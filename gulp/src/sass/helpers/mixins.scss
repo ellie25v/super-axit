@@ -1,0 +1,6 @@
+@mixin plank {
+    width: 64px;
+    height: 2px;
+    background-color: $orange-color;
+    content: "";
+}
