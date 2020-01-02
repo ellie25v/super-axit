@@ -9,10 +9,11 @@
 
   &_text {
     font-family: $p-font;
-    width: 362px;
+    width: 350px;
     text-align: left;
 
     &-title {
+      margin-top: 8px;
       font-size: 20px;
       color: $dark-color;
       font-weight: 600;
