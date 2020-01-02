@@ -3,15 +3,14 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: $dark-color;
-  color: white;
+  background-color: black;
+  min-height: 70px;
 
-}
-
-.main-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .main-menu {
@@ -22,13 +21,26 @@
   justify-content: space-between;
 }
 
-.logo {
+.logo-svg {
   width: 90px;
   height: 30px;
 }
 
-.main-nav__list-link {
-  font-weight: 600;
-  font-family: $p-font;
-  text-transform: capitalize;
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 494px;
+
+  &-link {
+    font-weight: 600;
+    font-family: $p-font;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+
+    &:hover {
+      color: $orange-color;
+    }
+  }
 }
