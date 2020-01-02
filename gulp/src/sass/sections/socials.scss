@@ -1,0 +1,38 @@
+.socials {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 102px;
+  }
+
+  &_text {
+    font-family: $p-font;
+    width: 362px;
+    text-align: left;
+
+    &-title {
+      font-size: 20px;
+      color: $dark-color;
+      font-weight: 600;
+    }
+
+    &-p {
+      font-size: 14px;
+      color: $grey-color;
+      font-weight: normal;
+    }
+  }
+
+  &_icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 680px;
+    fill: $grey-color;
+
+    &:hover{
+        fill: $orange-color;
+    }
+  }
+}
