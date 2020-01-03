@@ -1,24 +1,25 @@
- 
-%plank {
-    width: 64px;
-    height: 2px;
-    background-color: $orange-color;
-    content: "";
-}
+ %plank {
+   width: 64px;
+   height: 2px;
+   background-color: $orange-color;
+   content: "";
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
 
-%grey-p{
-    font-family: $p-font;
-    font-size: 14px;
-    color: $grey-color;
-}
+ %grey-p {
+   font-family: $p-font;
+   font-size: 14px;
+   color: $grey-color;
+ }
 
-%main-title{}
+ %main-title {}
 
-%first-section-title{
-    font-family: $p-font;
-    font-size: 20px;
-    color: black;
-    font-weight: 700;
-}
+ %first-section-title {
+   font-family: $p-font;
+   font-size: 20px;
+   color: black;
+   font-weight: 700;
+ }
 
-%button{}
+ %button {}
