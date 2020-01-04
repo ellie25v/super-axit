@@ -13,8 +13,6 @@
    color: $grey-color;
  }
 
- %main-title {}
-
  %first-section-title {
    font-family: $p-font;
    font-size: 20px;
@@ -22,4 +20,32 @@
    font-weight: 700;
  }
 
- %button {}
+
+ %main-title {
+  text-align: center;
+  font-family: $h-font;
+  font-size: 36px;
+  line-height: 1.2;
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+}
+
+%main-paragraph{
+  font-family: $p-font;
+  color: $grey-color;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+
+ %button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: $p-font;
+  font-weight: 600;
+  font-size: 15px;
+  color: snow;
+ }
